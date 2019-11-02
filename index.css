@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #001f3f;
+    color: white;
+}
+
+h1,
+h2 {
+    font-family: 'Staatliches', cursive;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+a {
+    color: #FFDC00;
+}
+
+button,
+input[type="text"] {
+    padding: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.error-message {
+    padding: 0 0;
+    margin: 0 0;
+}
+
+li {
+    padding: 10px;
+}
+
+li,
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container,
+#map-container,
+header,
+form,
+#results,
+.error-message {
+    margin: 0 auto;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error-message {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+#mapid {
+    height: 500px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
