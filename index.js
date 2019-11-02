@@ -29,6 +29,7 @@ function displayResults(responseJson, max) {
         )
     };
     //display the results section  
+    $('#map-container').removeClass('hidden');
     $('#results').removeClass('hidden');
     paintMap();
     mapParks(responseJson, max);
